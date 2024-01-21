@@ -1,0 +1,43 @@
+.body{
+  background-color: rgb(0, 0, 70);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-height: fit-content;
+}
+
+.container{
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, .5);
+  display: flex;
+  gap: 20px;
+}
+
+.colorButton{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonColorRed{
+  background-color: red;
+}
+.buttonColorBlue{
+  background-color: blue;
+}
+.buttonColorGreen{
+  background-color: green;
+}
+.buttonColorYellow{
+  background-color: yellow;
+}
+.buttonColorPink{
+  background-color: pink;
+}
